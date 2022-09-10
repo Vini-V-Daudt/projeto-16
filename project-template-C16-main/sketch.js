@@ -102,7 +102,7 @@ function draw() {
  
 if (arrowGroup.isTouching(greenB)) {
   greenB.destroyEach();
-  
+  arrowGroup.destroyEach();
 
   score = score+3
 }
@@ -111,14 +111,14 @@ if (arrowGroup.isTouching(greenB)) {
 
 if (arrowGroup.isTouching(blueB)) {
   blueB.destroyEach();
-  
+  arrowGroup.destroyEach();
   score = score+2
 }
 
 
 if (arrowGroup.isTouching(pinkB)) {
   pinkB.destroyEach();
-  
+  arrowGroup.destroyEach();
 
   score = score+1
 }
